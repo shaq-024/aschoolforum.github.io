@@ -1,0 +1,43 @@
+body {
+    background-image: url('https://dnd3y8e5nonx2.cloudfront.net/groups/avatars/151231/1448464177/display.jpeg');
+    background-repeat: repeat;
+  }
+  
+  .main {
+    background-image: url('pattern.jpg');
+    background-size: cover;
+    font-family: 'Arial Black', sans-serif;
+  }
+  
+  h1, h4 {
+    font-family: 'Impact', sans-serif;
+    color: #e8982e;
+  }
+  
+  a, button {
+    background-color: brown;
+    color: #ff9900;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  a:hover, button:hover {
+    background-color: brown;
+    color: blue;
+  }
+  
+  .top-bar {
+    background-color: brown;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: slide-top 0.5s ease;
+  }
+  
+  @keyframes slide-top {
+    from { transform: translateY(-100%); }
+    to { transform: translateY(0); }
+  }
+  
